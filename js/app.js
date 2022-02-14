@@ -166,6 +166,7 @@ btnGenStory.addEventListener("click", ()=>{
 		}
 	}
 	msg.textContent = output.join(" ")
+	speakNow(output)
 	return output
 })
 

@@ -72,14 +72,20 @@ body {
 }
 
 
-
 .msgContainer {
     /*position: absolute;*/
     /*bottom: 80px;*/
     /*left: 30px;*/
-    border: black 2px solid;
+    border: darkred 2px dashed;
+    margin: 40px 0;
+    min-width: 240px;
+    min-height: 50px;
 }
 
+.msgContainer > p {
+    color: brown;
+    text-shadow: 0 0 3px #AA336A, 0 0 5px #ffff00;
+}
 
 
 .bk {
