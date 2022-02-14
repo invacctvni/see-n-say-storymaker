@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+div>p {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+}
+
+.container {
+    background-color: yellow;
+    width: 40%;
+    height: 70vh;
+    border: black 2px dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5%;
+}
+
+
+.container > div {
+    border: blue 2px dashed;
+    height: 90%;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container > div > div {
+    border: orangered 4px dashed;
+    height: 80%;
+    width: 80%;
+    margin: 10px;
+}
+
+.controller {
+    background-color: yellow;
+    width: 40%;
+    height: 70vh;
+    border: red 2px dashed;
+    position:relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.reset {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.story {
+    position: absolute;
+    bottom: 40px;
+    right: 90px;
+}
+
+
+
+.msgContainer {
+    /*position: absolute;*/
+    /*bottom: 80px;*/
+    /*left: 30px;*/
+    border: black 2px solid;
+}
+
+
+
+.bk {
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+}
+
+.speaker {
+    position: absolute;
+    bottom: 40px;
+    left: 90px;
+}
+
+.roundbtn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px;
+    margin: 10px;
+}
+
+.btnPlay {
+    position: absolute;
+    bottom: 70px;
+    right: 180px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px;
+    margin: 10px;
+    font-weight: bold;
+}
